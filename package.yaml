@@ -21,6 +21,8 @@ description:         Please see the README on GitHub at <https://github.com/isov
 
 dependencies:
 - base >= 4.7 && < 5
+- directory
+- optparse-applicative
 
 executables:
   goals:
@@ -30,5 +32,3 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    dependencies:
-    - optparse-applicative
